@@ -16,23 +16,27 @@ The goal here isn't just getting a model that works. It's figuring out which
 signals in the data actually matter for prediction, and being honest about how 
 much a model like this could really be trusted in an actual clinical setting.
 ## Status
-Currently: EDA complete, moving to baseline model
+Currently: Developing logistic regression baseline model
 
-Last updated: **2026-06-27**
+Last updated: **2026-06-28**
 
 ## Terms I learned
 - **Electronic Health Records (EHRs)**: Patient records that contain vital signs and lab results including blood pressure, heart rate, respiratory rate, and body temperature
 
 ## Decisions and why
-### YYYY-MM-DD - Description
+### 2026-06-28 - First Baseline Model
+Considered: SVM, XGBoost, Random Forest, Neural Network 
 
-### YYYY-MM-DD - Description
-Considered: xx
-Picked: xx
+Picked: **Logistic Regression**
+
+Why: fast to train, simple enough to trust the result without tuning, interpretable coefficients to sanity check feature relationships, and matches binary classification structure of problem
 
 ## Open questions / things to revisit
-- 
+- What model to choose?
+    - Model choice depends on what we are predicting (binary here) and how much data we have. It depends what tradeoffs we want as well like prioritizing speed or accuracy. 
 
 ## Quick links
 - Dataset: Kaggle Vitals & Variables - https://www.kaggle.com/competitions/kaggle-community-olympiad-vitals-variables-predicting-patient-outcomes/overview
 - Papers: 
+- Links: 
+    - ML Algo Cheat Sheet: https://learn.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet?view=azureml-api-1 
