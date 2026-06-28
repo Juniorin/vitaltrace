@@ -16,7 +16,7 @@ The goal here isn't just getting a model that works. It's figuring out which
 signals in the data actually matter for prediction, and being honest about how 
 much a model like this could really be trusted in an actual clinical setting.
 ## Status
-Currently: Repo and environment set up, about to start EDA
+Currently: Finished structural eda, moving to target variable
 
 Last updated: **2026-06-27**
 
