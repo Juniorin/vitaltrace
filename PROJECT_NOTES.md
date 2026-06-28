@@ -16,7 +16,7 @@ The goal here isn't just getting a model that works. It's figuring out which
 signals in the data actually matter for prediction, and being honest about how 
 much a model like this could really be trusted in an actual clinical setting.
 ## Status
-Currently: Finished missing data eda, moving to data quality 
+Currently: EDA complete, moving to baseline model
 
 Last updated: **2026-06-27**
 
