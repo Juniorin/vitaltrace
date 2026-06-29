@@ -33,7 +33,10 @@ Why: fast to train, simple enough to trust the result without tuning, interpreta
 
 ## Open questions / things to revisit
 - What model to choose?
-    - Model choice depends on what we are predicting (binary here) and how much data we have. It depends what tradeoffs we want as well like prioritizing speed or accuracy. 
+    - Model choice depends on what we are predicting (binary here) and how much data we have. It depends what tradeoffs we want as well like prioritizing speed or accuracy.
+- When to use logistic regression or decision based trees?
+    - Logistic Regression is better in fast and linear relationships to identify patterns. It uses less data and relies on fewer data points to fit reliably
+    - Tree-based models work with non-linear relationships, mixed types, and has better predictive performance than interpretability.
 
 ## Quick links
 - Dataset: Kaggle Vitals & Variables - https://www.kaggle.com/competitions/kaggle-community-olympiad-vitals-variables-predicting-patient-outcomes/overview
